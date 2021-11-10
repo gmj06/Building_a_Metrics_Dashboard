@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/Users/chandrub/Desktop/Gowri/Udacity/CNAND_nd064_C4_Observability_Starter_Files-master/Building_a_Metrics_Dashboard","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
