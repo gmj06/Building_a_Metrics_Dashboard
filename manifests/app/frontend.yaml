@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ghcr.io/thejaysmith/myfrontend:v1
+        image: gmj06/nd064-observability-frontend:latest
         ports:
         - containerPort: 8080
 ---

@@ -24,7 +24,7 @@ spec:
       - env:
         - name: JAEGER_HOST
           value: my-traces-agent.observability.svc.cluster.local
-        image: andriiiudin/nd064-trace-backend
+        image: gmj06/nd064-observability-backend:latest
         imagePullPolicy: Always
         name: backend
         ports:
@@ -35,7 +35,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: backend
+  name: backend-service
   labels:
     app: backend
 spec:

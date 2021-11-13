@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: trial
-        image: ghcr.io/thejaysmith/trial:v1
+        image: gmj06/nd064-observability-trial:latest
         ports:
         - containerPort: 8082
 ---
